@@ -2,7 +2,7 @@
   "homepage": "https://github.com/Chiragsinh-3/text-to-speech-convertor",
   "name": "text-to-speech-converter",
   "private": true,
-  "version": "0.0.0",
+  "version": "1.0.0",
   "type": "module",
   "scripts": {
     "predeploy": "npm run build",
