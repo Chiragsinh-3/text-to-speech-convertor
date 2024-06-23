@@ -1,0 +1,29 @@
+.container {
+  display: flex;
+  padding: 8rem;
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.title {
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+.textarea {
+  margin-top: 1rem;
+  border: none;
+  outline: none;
+  display: block;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+  padding: 0.625rem;
+  border-width: 1px;
+  border-radius: 0.25rem;
+  width: 100%;
+  resize: none;
+
+}

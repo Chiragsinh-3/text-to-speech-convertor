@@ -1,0 +1,16 @@
+body{
+  background-color: rgb(15 23 42);
+  color: rgb(241 245 249);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+body.light-mode{
+  background-color: rgb(241 245 249);
+  color: rgb(15 23 42);
+  --featured: true
+}
+
+body.light-mode button {
+  background-color: rgb(15 23 42);
+  color: rgb(241 245 249);
+}

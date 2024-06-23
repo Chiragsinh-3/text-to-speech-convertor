@@ -1,0 +1,39 @@
+label {
+  font-size: 1.2rem;
+}
+.voice {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 0 5rem 0 0;
+}
+.voice select {
+  /* width: 80%; */
+  padding: 0.5rem;
+  outline: none;
+  cursor: pointer;
+}
+option{
+  padding: 0.5rem;
+  cursor: pointer;
+}
+.voice input {
+  margin: 0.5rem 0 0 0;
+  outline: none;
+  /* width: 80%; */
+}
+.voice div {
+  display: flex;
+  width: 100%;
+}
+.voice button {
+  margin: 0 0.5rem 0 0;
+  padding: 1rem 0.5rem;
+  border: none;
+  border-radius: 0.3rem;
+  outline: none;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
